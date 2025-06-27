@@ -1,0 +1,16 @@
+name: My Practice Workflow
+on: workflow_dispatch
+
+jobs:
+  my-test-job:
+   runs-on: ubuntu-latest
+   steps:
+     - name: spme print
+       run: |
+        echo "Hello welcome to Github world"
+        echo "Github actions is the new world"
+     - name: exist-job
+       run: echo "Keep going there is no looking back from here"
+      
+       
+     
