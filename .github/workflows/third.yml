@@ -1,0 +1,13 @@
+name : Third Test Workflow
+on : workflow_dispatch
+
+jobs : 
+  My-test-job :
+    runs-on : ubuntu-latest
+    steps :
+      - name : First-step
+        run : |
+          echo "Hey Lavanya"
+          echo "Hi Abhi"
+      - name : Second-step
+        run : ech "I don't know"
