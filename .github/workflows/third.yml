@@ -10,4 +10,4 @@ jobs :
           echo "Hey Lavanya"
           echo "Hi Abhi"
       - name : Second-step
-        run : ech "I don't know"
+        run : echo "I don't know"
