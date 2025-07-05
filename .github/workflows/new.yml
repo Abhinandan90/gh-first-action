@@ -1,0 +1,13 @@
+name: new-workflow
+on: 
+  push:
+  workflow_dispatch:
+
+jobs:
+  my-new-workflow-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: my-test
+        run: echo "Hi Lavanya"
+  
