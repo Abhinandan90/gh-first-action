@@ -9,5 +9,7 @@ jobs:
 
     steps:
       - name: my-test
-        run: echo "Hi Lavanya"
+        run: |
+          echo "Hi Lavanya"
+          echo "Hey Abhi"
   
